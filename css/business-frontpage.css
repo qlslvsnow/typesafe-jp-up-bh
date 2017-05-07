@@ -1,0 +1,70 @@
+/*!
+ * Start Bootstrap - Business Frontpage HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+/* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
+
+.business-header {
+    height: 400px;
+    background: url('../images/goodorbad.jpg') center center no-repeat scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.business-header-small {
+    height: 110px;
+    background: url('../images/goodorbad.jpg') center center no-repeat scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.business-header-small h1{
+    font-size: 2em;
+}
+
+/* Customize the text color and shadow color and to optimize text legibility. */
+
+.tagline {
+    text-shadow: 0 0 10px #000;
+    color: #fff;
+}
+
+.img-center {
+    margin: 0 auto;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+/* Customize the navbar style. */
+.navbar-custom {
+    background-color:#0071c5;
+    color:#ffffff;
+    border-radius:0;
+}
+.navbar-custom .navbar-nav > li > a {
+    color:#fff;
+}
+.navbar-custom .navbar-nav > li > a:hover, .nav > li > a:focus { 
+    text-decoration: none; 
+    background-color: #33aa33; 
+}
+.navbar-custom .navbar-brand {
+    color:#eeeeee;
+}
+.navbar-custom .navbar-toggle {
+    background-color:#0071c5;
+}
+.navbar-custom .icon-bar {
+    background-color:#ffffff;
+}
